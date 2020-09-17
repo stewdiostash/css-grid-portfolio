@@ -1,0 +1,69 @@
+/* General */
+
+body {
+    background-color: #181017;
+    color: white;
+}
+
+.project-preview img{
+    display: block;
+}
+
+.project-summary{
+    color: thistle;
+}
+
+a {
+    text-decoration: none;
+}
+
+.project-title {
+    color: white;
+}
+
+
+.project-thumbnail {
+    background-color: #010101;
+    width: 100%;
+    height: auto;
+}
+
+.menu-item {
+    padding-left: 24px;
+}
+
+
+/* Typography */
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+
+
+/* Flex */
+
+header,
+footer,
+menu {
+    display: flex;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    flex-basis: 50%;
+}
+
+
+
+
+
+
+
