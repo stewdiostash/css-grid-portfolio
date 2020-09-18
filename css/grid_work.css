@@ -12,22 +12,6 @@ footer {
     grid-area: footer;
 }
 
-.project-one {
-    grid-area: project-one;
-}
-
-.project-two {
-    grid-area: project-two;
-}
-
-.project-one {
-    grid-area: project-three;
-}
-
-.project-one {
-    grid-area: project-four;
-}
-
 .container {
     max-width: 1400px;
     min-width: 400px;
@@ -44,14 +28,14 @@ footer {
 
 main {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 30px;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas:
         "project-one"
         "project-two"
         "project-three"
-        "project-four";
+        "project-four"; */
 
 }
 
@@ -71,10 +55,10 @@ main {
 
     main {
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        /* grid-template-rows: 1fr 1fr;
         grid-template-areas:
             "project-one project-two"
-             "project-three project-four";
+             "project-three project-four"; */
     }
 }    
 
@@ -83,9 +67,9 @@ main {
 
     main {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
+        /* grid-template-rows: 1fr;
         grid-template-areas:
-            "project-one project-two project-three project-four";
+            "project-one project-two project-three project-four"; */
     }  
     
 }

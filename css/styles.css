@@ -5,31 +5,79 @@ body {
     color: white;
 }
 
+img {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-top: 0;
+}
+
 .project-preview img{
     display: block;
 }
 
 .project-summary{
-    color: thistle;
+    color: white;
 }
 
 a {
     text-decoration: none;
 }
 
-.project-title {
-    color: white;
+.menu-item,
+.caption.git-link {
+    color: rgba(255,255,255,0.8);
+}
+
+.menu-item:hover,
+.caption.git-link:hover {
+    color: rgba(255,255,255,1);
 }
 
 
-.project-thumbnail {
-    background-color: #010101;
+#here {
+    border-bottom-style: solid;
+    border-bottom-color: pink;
+}
+
+
+
+.caption {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    color: thistle;
+}
+
+#social-links {
+    display: flex;
+    flex-direction: column;
+}
+
+#social-link {
+    margin-bottom: 10px;
+}
+
+/* .caption.git-link {
+    color: white;
+} */
+
+/* .caption.git-link:hover {
+    color: white;
+    text-decoration: underline;
+} */
+
+
+
+img {
     width: 100%;
     height: auto;
 }
 
 .menu-item {
-    padding-left: 24px;
+    margin-left: 24px;
 }
 
 
@@ -37,8 +85,13 @@ a {
 
 body {
     font-family: 'IBM Plex Sans', sans-serif;
+    line-height: 1.4;
     font-size: 18px;
     font-weight: 300;
+}
+
+#logo {
+    color: white;
 }
 
 
