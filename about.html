@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
+  <title>Andrew Stewart - About</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -37,7 +37,7 @@
     <header>
       <a href="index.html">
         <div id="logo">
-          Andrew Stewart, Dev/Design
+          Andrew Stewart
         </div>
       </a>
       <div id="menu">
@@ -48,14 +48,15 @@
 
     <main>
       <img id="portrait" src="images/as_photo.jpg" alt="portrait">
-      <div class="caption" id="bio">
-        <p>Hey it's Andrew! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar mattis nunc sed blandit libero. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin nibh. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl. Sed augue lacus viverra vitae congue. </p>
-        <p>A arcu cursus vitae congue mauris rhoncus. Egestas purus viverra accumsan in. Aliquam vestibulum morbi blandit cursus risus at. Urna nunc id cursus metus aliquam eleifend mi. Tristique senectus et netus et malesuada fames.</p>
+      <div id="bio">
+        <p>Hey it's Andrew! I'm a developer with a background in UX and visual design. I naturally gravitate to the intersection of design and dev—where technical tinkering meet big-picture user-centered thinking. Also, I must admit: I could literally spend all day playing with CSS Grid.</p>
+        <p>Currently enrolled in Georgia Tech's Full Stack Flex Bootcamp.</p>
       </div>
-      <div id="social-links">
-        <a id="social-link" href="https://github.com/stewdiostash" class="caption git-link">On Github &rarr;</a>
-        <a id="social-link" href="https://www.linkedin.com/in/andrewstewartwork/" class="caption git-link">Linkedin &rarr;</a>
-        <a id="social-link" href="https://stewdioland.com" class="caption git-link">UX and design work &rarr;</a>
+      <div id="link-group">
+        <a class="social-link caption" href="https://github.com/stewdiostash" class="caption git-link">On Github &rarr;</a>
+        <a class="social-link caption" href="https://www.linkedin.com/in/andrewstewartwork/" class="caption git-link">Linkedin &rarr;</a>
+        <a class="social-link caption" href="https://stewdioland.com" class="caption git-link">UX and design work &rarr;</a>
+        <a class="social-link caption" href="mailto:andrew@stewdioland.com" class="caption git-link">Email &rarr;</a>
       </div>
     
 
@@ -66,6 +67,23 @@
 
 
   </div>
+
+  <script src="scripts/anime.js"></script>
+  <script>
+    var shift = anime({
+      targets: '#portrait',
+      opacity: 0,
+      translateX: 250,
+      autoplay: false
+    });
+
+    document.querySelector("#bio").onclick = shift.restart;
+
+
+
+
+
+</script>    
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

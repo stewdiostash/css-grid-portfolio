@@ -37,6 +37,8 @@ a {
 
 
 #here {
+    padding-bottom: 4px;
+    border-bottom-width: 4px;
     border-bottom-style: solid;
     border-bottom-color: pink;
 }
@@ -51,13 +53,15 @@ a {
     color: thistle;
 }
 
-#social-links {
+#link-group {
     display: flex;
     flex-direction: column;
+    
 }
 
-#social-link {
+.social-link {
     margin-bottom: 10px;
+    color: white;
 }
 
 /* .caption.git-link {
@@ -110,7 +114,7 @@ header {
     align-items: center;
 }
 
-#logo {
+a#logo {
     flex-basis: 50%;
 }
 
