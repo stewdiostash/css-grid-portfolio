@@ -35,15 +35,12 @@ a {
     color: rgba(255,255,255,1);
 }
 
-
 #here {
     padding-bottom: 4px;
     border-bottom-width: 4px;
     border-bottom-style: solid;
     border-bottom-color: pink;
 }
-
-
 
 .caption {
     font-family: 'IBM Plex Mono', monospace;
@@ -63,16 +60,6 @@ a {
     margin-bottom: 10px;
     color: white;
 }
-
-/* .caption.git-link {
-    color: white;
-} */
-
-/* .caption.git-link:hover {
-    color: white;
-    text-decoration: underline;
-} */
-
 
 
 img {
@@ -97,9 +84,6 @@ body {
 #logo {
     color: white;
 }
-
-
-
 
 /* Flex */
 
