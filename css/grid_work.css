@@ -19,7 +19,7 @@ footer {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 20px 1fr 20px;
-    grid-template-rows: 160px 1fr 160px;
+    grid-template-rows: 100px 1fr 160px;
     grid-template-areas:
         "...  header  ..."
         "...  main ..."
