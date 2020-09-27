@@ -11,6 +11,10 @@ img {
 
 p {
     margin-top: 0;
+    /* font-family: 'IBM Plex Mono', monospace; */
+    letter-spacing: .1px;
+    font-size: 21px;
+    line-height: 1.7;
 }
 
 .project-preview img{
@@ -83,6 +87,9 @@ body {
 
 #logo {
     color: white;
+    font-weight: 700;
+    letter-spacing: .1px;
+    font-size: 28px;
 }
 
 /* Flex */
