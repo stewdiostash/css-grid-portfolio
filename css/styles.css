@@ -11,9 +11,7 @@ img {
 
 p {
     margin-top: 0;
-    /* font-family: 'IBM Plex Mono', monospace; */
     letter-spacing: .1px;
-    font-size: 21px;
     line-height: 1.7;
 }
 
@@ -82,14 +80,18 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
     line-height: 1.4;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
+}
+
+#bio{
+    color: thistle;
 }
 
 #logo {
     color: white;
     font-weight: 700;
     letter-spacing: .1px;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 /* Flex */
