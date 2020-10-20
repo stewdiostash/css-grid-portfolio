@@ -9,10 +9,19 @@ img {
     margin-bottom: 20px;
 }
 
+h1, h2 {
+    font-weight: 400;
+    line-height: 1.5;
+}
+
 p {
     margin-top: 0;
     letter-spacing: .1px;
-    line-height: 1.7;
+    line-height: 1.8;
+}
+
+#faded{
+    color: thistle;
 }
 
 .project-preview img{
@@ -45,10 +54,11 @@ a {
 }
 
 .caption {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 14px;
-    letter-spacing: 1px;
-    line-height: 1.6;
+    /* font-family: 'IBM Plex Mono', monospace; */
+    /* font-family: 'IBM Plex Serif', serif; */
+    font-size: 15px;
+    letter-spacing: .5px;
+    line-height: 1.8;
     color: thistle;
 }
 
@@ -77,7 +87,7 @@ img {
 /* Typography */
 
 body {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Spartan', sans-serif;
     line-height: 1.4;
     font-size: 18px;
     font-weight: 400;
@@ -91,7 +101,7 @@ body {
     color: white;
     font-weight: 700;
     letter-spacing: .1px;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 /* Flex */
