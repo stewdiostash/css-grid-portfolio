@@ -12,6 +12,10 @@ footer {
     grid-area: footer;
 }
 
+#hey {
+    grid-area: hey;
+}
+
 .container {
     max-width: 1400px;
     /* min-width: 400px; */
@@ -30,12 +34,13 @@ main {
     display: grid;
     grid-gap: 30px;
     grid-template-columns: 1fr;
-    /* grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
+        "hey"
         "project-one"
         "project-two"
         "project-three"
-        "project-four"; */
+        "project-four";
 
 }
 
@@ -55,10 +60,11 @@ main {
 
     main {
         grid-template-columns: 1fr 1fr;
-        /* grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 2fr 2fr;
         grid-template-areas:
+            "hey hey"
             "project-one project-two"
-             "project-three project-four"; */
+             "project-three project-four";
     }
 }    
 
@@ -67,9 +73,10 @@ main {
 
     main {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        /* grid-template-rows: 1fr;
+        grid-template-rows: 1fr 2fr;
         grid-template-areas:
-            "project-one project-two project-three project-four"; */
+            "hey hey hey hey"
+            "project-one project-two project-three project-four";
     }  
     
 }

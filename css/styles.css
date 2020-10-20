@@ -15,6 +15,16 @@ p {
     line-height: 1.7;
 }
 
+h2 {
+    font-weight: 300;
+    font-size: 32px;
+    letter-spacing: .2px;
+}
+
+.thistle {
+    color: thistle;
+}
+
 .project-preview img{
     display: block;
 }
@@ -91,7 +101,7 @@ body {
     color: white;
     font-weight: 700;
     letter-spacing: .1px;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 /* Flex */
